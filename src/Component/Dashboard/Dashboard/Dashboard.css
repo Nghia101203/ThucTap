@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.DashBoard{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #F3F7FB;
+    border-radius: 32px;
+}

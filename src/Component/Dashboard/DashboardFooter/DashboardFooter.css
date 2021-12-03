@@ -1,0 +1,588 @@
+.footercontentleft{
+    position: absolute;
+    width: 510px;
+    height: 300px;
+    left: 270px;
+    top: 430px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    }
+        
+    .CBATM{
+        position: absolute;
+        left: 30px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #091F3A;
+    } 
+        
+    .Nhiet{
+        position: absolute;
+        width: 160px;
+        height: 80px;
+        background: #EAF5FA;
+        border-radius: 8px;
+        top:30px;
+        left:20px;    
+    }
+        
+    .wordnhiet{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        position: absolute;
+        top:20px;
+        left:100px;
+        color: #1085C5;
+    }
+        
+    .TB{
+        position: absolute;
+        top:40px;
+        left:90px;
+        font-size: 12px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        
+    }
+    
+    .khoi{
+    position: absolute;
+    width: 160px;
+    height: 80px;
+    left: 190px;
+    top: 29px;
+    
+    /* Blue/1 */
+    
+    background: #EAF5FA;
+    border-radius: 8px;
+    }
+    
+    .icon1{
+    position: absolute;
+    top:15px;
+    left:5px;
+    }
+    
+    .icon2{
+    position: absolute;
+    top:15px;
+    left:5px;
+    }
+    
+    .wordkhoi{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    color: #1085C5;
+    }
+        
+        .TB1{
+            position: absolute;
+            top:40px;
+            left:75px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .rung{
+            position: absolute;
+            width: 140px;
+            height: 80px;
+            left: 360px;
+            top: 29px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon3{
+            position: absolute;
+            top:15px;
+            left:5px;
+        }
+        
+        .wordrung{
+            position: absolute;
+            left: 75px;
+            top: 15px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+        }
+        
+        .TB2{
+            position: absolute;
+            top:40px;
+            left:70px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .dichchuyen{
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 20px;
+            top: 115px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon4{
+            position: absolute;
+            top:15px;
+            right:90px;
+        }
+        
+        .worddichchuyen{
+            position: absolute;
+            left: 100px;
+            top: 8px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+            font-size: 12px;
+        }
+        
+        .TB3{
+            position: absolute;
+            top:50px;
+            left:80px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .rodien{
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 190px;
+            top: 115px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon5{
+            position: absolute;
+            top:15px;
+            right:100px;
+        }
+        
+        .wordrodien{
+            position: absolute;
+            left: 70px;
+            top: 15px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+            font-size: 14px;
+        }
+        
+        .TB4{
+            position: absolute;
+            top:45px;
+            left:65px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .cuatren{
+            position: absolute;
+            width: 140px;
+            height: 80px;
+            left: 360px;
+            top: 115px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon6{
+            position: absolute;
+            top:15px;
+            right:85px;
+        }
+        .wordcuatren{
+            position: absolute;
+            left: 60px;
+            top: 15px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+            font-size: 14px;
+        }
+        
+        .TB5{
+            position: absolute;
+            top:45px;
+            left:65px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .CBCN{
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 20px;
+            top: 205px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon7{
+            position: absolute;
+            top:15px;
+            right:90px;
+        }
+        
+        .wordCBCT{
+            position: absolute;
+            left: 80px;
+            top: 15px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+            font-size: 14px;
+        }
+        
+        .TB6{
+            position: absolute;
+            top:40px;
+            left:75px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .CBCK{
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 190px;
+            top: 205px;
+        
+            /* Blue/1 */
+        
+            background: #EAF5FA;
+            border-radius: 8px;
+        }
+        
+        .icon8{
+            position: absolute;
+            top:15px;
+            right:100px;
+        }
+        .wordCBCK{
+            position: absolute;
+            left: 80px;
+            top: 15px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            color: #1085C5;
+            font-size: 14px;
+        }
+        
+        .TB7{
+            position: absolute;
+            top:40px;
+            left:75px;
+            font-size: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        .footercontentright{
+        
+        
+            position: absolute;
+            width: 510px;
+            height: 300px;
+            left: 800px;
+            top: 430px;
+            
+            /* White */
+            
+            background: #FFFFFF;
+            border-radius: 12px;
+            }
+        
+            .CBPGD{
+                position: absolute;
+                left: 30px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                color: #091F3A;
+            }
+        
+            .BDKC{
+                position: absolute;
+                width: 160px;
+                height: 80px;
+                background: #EAF5FA;
+                border-radius: 8px;
+                top:30px;
+                left:20px;
+            }
+        
+            .icon9{
+                position: absolute;
+                top:10px;
+                right:100px;
+            }
+        
+            .wordBDKC{
+                position: absolute;
+                left: 70px;
+                top: 15px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB8{
+                position: absolute;
+                top:50px;
+                left:70px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
+        
+            .BDXN{
+                position: absolute;
+                width: 160px;
+                height: 80px;
+                left: 190px;
+                top: 29px;
+            
+                /* Blue/1 */
+            
+                background: #EAF5FA;
+                border-radius: 8px;
+            }
+        
+            .icon10{
+                position: absolute;
+                top:10px;
+                right:110px;
+            }
+        
+            .wordBDXN{
+                position: absolute;
+                left: 55px;
+                top: 15px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB9{
+                position: absolute;
+                top:40px;
+                left:60px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
+        
+            .BDTC{
+                position: absolute;
+                width: 150px;
+                height: 80px;
+                left: 355px;
+                top: 29px;
+            
+                /* Blue/1 */
+            
+                background: #EAF5FA;
+                border-radius: 8px;
+            }
+            .icon11{
+                position: absolute;
+                top:10px;
+                right:95px;
+            }
+        
+            .wordBDTC{
+                position: absolute;
+                left: 60px;
+                top: 15px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB10{
+                position: absolute;
+                top:40px;
+                left:60px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
+        
+            .BDQGSM{
+                position: absolute;
+                width: 160px;
+                height: 80px;
+                background: #EAF5FA;
+                border-radius: 8px;
+                top:120px;
+                left:20px;
+            }
+        
+            .icon12{
+                position: absolute;
+                top:1px;
+                right:100px;
+            }
+        
+            .wordBDQGSM{
+                position: absolute;
+                left: 60px;
+                top: 15px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB11{
+                position: absolute;
+                top:50px;
+                left:70px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
+        
+            .CBK{
+                position: absolute;
+                width: 160px;
+                height: 80px;
+                background: #EAF5FA;
+                border-radius: 8px;
+                top:120px;
+                left:190px;
+            }
+        
+            .icon13{
+                position: absolute;
+                top:20px;
+                right:100px;
+            }
+        
+            .wordCBK{
+                position: absolute;
+                left: 65px;
+                top: 20px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB12{
+                position: absolute;
+                top:50px;
+                left:70px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
+            .CBR{
+                position: absolute;
+                width: 150px;
+                height: 80px;
+                left: 355px;
+                top: 120px;
+            
+                /* Blue/1 */
+            
+                background: #EAF5FA;
+                border-radius: 8px;
+            }
+        
+            .icon14{
+                position: absolute;
+                top:20px;
+                right:90px;
+            }
+        
+            .wordCBR{
+                position: absolute;
+                left: 65px;
+                top: 20px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 800;
+                color: #1085C5;
+                font-size: 12px;
+            }
+        
+            .TB13{
+                position: absolute;
+                top:50px;
+                left:70px;
+                font-size: 12px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+            }
