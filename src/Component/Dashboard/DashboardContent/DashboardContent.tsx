@@ -2,7 +2,7 @@ import React from 'react'
 import './DashboardContent.css';
 
 import Thietbi from '../HinhDashBoardContent/Frame 887.png';
-import ATM from '../HinhDashboardContent/Frame 886.png';
+import ATM from '../HinhDashBoardContent/Frame 886.png';
 import PGD from '../HinhDashBoardContent/Frame 887 (1).png';
 import A531 from '../HinhDashBoardContent/Group 59.png';
 import A756 from '../HinhDashBoardContent/Group 59 (1).png';

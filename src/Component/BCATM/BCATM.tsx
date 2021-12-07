@@ -1,7 +1,7 @@
 import React from 'react'
 import Topbar from '../BCATMHeader/BCATMHeader'
 import Sidebar from '../BCATMContent/BCATMContent'
-import TbAtmMain from '../BCATMMain/BCATM'
+import TbAtmMain from '../BCATMMain/BCATMMain'
 import './BCATM.css'
 
 export default function BCATM() {

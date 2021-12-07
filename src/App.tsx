@@ -5,13 +5,13 @@ import './App.css';
 import Login from './Component/Login/Login/Login';
 import Board from './Component/Board/Board/Board';
 import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
-import DashboardContent from './Component/Dashboard/DashboardContent/DashboardContent';
-import DashboardFooter from './Component/Dashboard/DashboardFooter/DashBoardFooter';
-import DashboardHeader from './Component/Dashboard/DashboardHeader/DashBoardHeader';
 import BCATM from './Component/BCATM/BCATM';
-import BCATMContent from './Component/BCATMContent/BCATMContent';
-import BCATMHeader from './Component/BCATMHeader/BCATMHeader';
-import BCATMMain from './Component/BCATMMain/BCATM';
+import GSM from './Component/GSM/GSM/GSM';
+import QLCB from './Component/QLCanhBao/QLCB/QLCB';
+import BCTPGD from './Component/BaoCaoTheoPGD/BCPGD/BCPGD';
+import QTC from './Component/QuyenTC/QTC/QTC';
+import QLTBGSM from './Component/QLThietbiGSM/QLGSM/QLGSM';
+
 
 import { Layout, Avatar } from 'antd';
 import { DashboardFilled, UserOutlined } from '@ant-design/icons';
@@ -21,10 +21,7 @@ const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <div className="background">
-      
-      
-      <BCATM/>
-      
+      <GSM/>
     </div>
   );
 }

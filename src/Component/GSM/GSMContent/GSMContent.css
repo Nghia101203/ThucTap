@@ -1,0 +1,38 @@
+@import '~antd/dist/antd.css';
+
+.bgGSM{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px 50px 50px 50px;
+    background: #F0F8FF;
+    box-shadow: inset 100px -100px 100px rgba(185, 188, 191, 0.123), inset -100px 100px 100px rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(600px);
+}
+
+.TitleTable {
+    color: #1085C5;
+}
+
+.News{
+    position: absolute;
+    width: 1541px;
+    height: 543px;
+    left: 347px;
+    top: 700px;
+}
+
+.News2{
+    position: absolute;
+    width: 1541px;
+    height: 543px;
+    left: 0px;
+    top: 0px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
