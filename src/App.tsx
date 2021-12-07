@@ -21,7 +21,7 @@ const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <div className="background">
-      <GSM/>
+      <Login/>
     </div>
   );
 }
