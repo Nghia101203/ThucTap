@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
 import { Button } from 'antd';
-//import { Link } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
 
 import Logo from '../HinhLogin/Logo.png';
 import Bong from '../HinhLogin/Bong.png';
@@ -18,43 +18,63 @@ export default function Login() {
                 </div>
 
                 <div className="Background">
-                    <div className="Left">
-                        <img src={Bong} alt="" className="Bong"/>
-                        <img src={CayATM} alt="" className="ATM"/>
-                        <img src={Hinh1} alt="" className="Hinh1"/>
-                        <img src={Hinh2} alt="" className="Hinh2"/>
-                        <img src={Hinh3} alt="" className="Hinh3"/>
-                        <p className="BackgroundATM"/>
+                   <div className="Contentleft">
+                        <img src={CayATM} alt="" className="atm"/>
+                        <img src={Bong} alt="" className="bongatm"/>
+                        <img src={Hinh1} alt="" className="f1"/>
+                        <img src={Hinh2} alt="" className="f2"/>
+                        <img src={Hinh3} alt="" className="f3"/>
+                        <p className="bg_ATM"/>
                     </div>
 
-                    <div className="" style={{ padding:' 90px' }}> 
+                    <div className="" > 
                         <h3 className="TitleLogin">
                             Đăng nhập
                         </h3>
-                        <form className="ContentLogin">
+                        <form className="">
+
                             <br />
-                            <label className="TenDangNhap">
-                                Tên đăng nhập
-                            </label>
+
+                                <label className="TenDangNhap">
+                                    Tên đăng nhập
+                                </label>
+                                <br />
+                                <input type="text" className="unamelogin" name="Uname" placeholder="Nhập tài khoản"/>
+
                             <br />
-                            <input type="text" className="unamelogin" name="Uname" placeholder="Nhập tài khoản"/>
+
+                                <label htmlFor="tdn" className="MatKhau">
+                                    Mật khẩu
+                                </label>
+
                             <br />
-                            <label htmlFor="tdn" className="MatKhau">
-                                Mật khẩu
-                            </label>
-                            <br />
-                            <input type="password" className="upassword" name="pword" placeholder="Nhập tài khẩu"/>
+
+                                <input type="password" className="upassword" name="pword" placeholder="Nhập tài khẩu"/>
+                            
                             <br />
                             <br />
-                            <input type="checkbox" className="checkpass" name="savepass"/>
-                            <label htmlFor="savepass" className="savepass">
-                                Ghi nhớ đăng nhập
-                            </label>
+
+                                <div className="bgCheckBox">
+                                <input type="checkbox" className="checkpass" name="savepass"/>
+                                <label htmlFor="savepass" className="savepass">
+                                    Ghi nhớ đăng nhập
+                                </label>
+                                </div>
+
                             <br />
-                            <Button type="primary" htmlType="submit">
-                                <h4>Đăng nhập</h4>
-                            </Button>
+
+                            <Link to="/TrangChinh" className="">
+                                <div className="bgbtnDangnhap">
+                                    <h4 className="TitlebtnDN">Đăng nhập</h4>
+                                </div>
+                             </Link>
+
                         </form>
+
+                        <Routes>
+                            <Route path="/TrangChinh"/>
+                        </Routes>
+
                         <div className="quenmatkhau">
                             Quên mật khẩu?
                         </div>

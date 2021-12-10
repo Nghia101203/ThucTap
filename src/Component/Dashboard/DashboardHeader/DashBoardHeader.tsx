@@ -6,9 +6,9 @@ import { Avatar, Row, Col } from 'antd'
 import { UserOutlined } from '@ant-design/icons'
 import { DatePicker } from 'antd';
 
-export default function DashBroadHeader() {
+export default function DashBoardHeader() {
     return (
-        <div className="DashBroadHeader">
+        <div className="DashBoardHeader">
             <div style={{float:'right'}}>
                 <Avatar size="large" icon={<UserOutlined />} />
             </div>

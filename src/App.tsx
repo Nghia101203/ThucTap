@@ -11,6 +11,8 @@ import QLCB from './Component/QLCanhBao/QLCB/QLCB';
 import BCTPGD from './Component/BaoCaoTheoPGD/BCPGD/BCPGD';
 import QTC from './Component/QuyenTC/QTC/QTC';
 import QLTBGSM from './Component/QLThietbiGSM/QLGSM/QLGSM';
+import QLND from './Component/QLNguoiDung/QLND/QLND';
+import AuditLog from './Component/AuditLog/AuditLog/AuditLog';
 
 
 import { Layout, Avatar } from 'antd';
@@ -21,7 +23,7 @@ const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <div className="background">
-      <Login/>
+      <AuditLog/>
     </div>
   );
 }
