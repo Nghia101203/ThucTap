@@ -7,7 +7,7 @@ import Content from '../BCPGDContent/BCPGDContent'
 
 import './BCPGD.css'
 
-export default function BCATM() {
+export default function BCPGD() {
     return (
         <div className="">
             <div className="">
